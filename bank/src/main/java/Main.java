@@ -26,7 +26,7 @@ public class Main {
     ur.moneyFromAccount(400.);
     System.out.println("Денег на счете: " + ur.getBalance());
 
-    System.out.println("\nИД СЧЕТ");
+    System.out.println("\nИД СЧЕТ");    // Опечатка - вероятно имелось ввиду ИП счет
     System.out.println("Денег на счете: " + Ip.getBalance());
     Ip.moneyToAccount(10000);
     System.out.println("Денег на счете: " + Ip.getBalance());
